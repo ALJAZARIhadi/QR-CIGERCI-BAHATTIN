@@ -1,0 +1,426 @@
+```html
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Ciğerci Bahattin - Izgara, ciğer, kebap ve geleneksel Türk lezzetleri.">
+
+    <title>Ciğerci Bahattin | Menü</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <div class="header-overlay"></div>
+
+    <div class="header-content">
+
+        <div class="brand">
+            <div class="brand-logo">
+                CB
+            </div>
+
+            <div>
+                <h1>Ciğerci Bahattin</h1>
+                <p>Geleneksel Lezzetler</p>
+            </div>
+        </div>
+
+        <p class="header-description">
+            1995'ten beri değişmeyen lezzet,
+            usta dokunuşu ve kaliteli malzeme.
+        </p>
+
+    </div>
+
+</header>
+
+
+<!-- ================= NAVIGATION ================= -->
+
+<nav class="top-nav">
+
+    <a href="#menu">Menü</a>
+
+    <a href="#about">Hakkımızda</a>
+
+    <a href="#branches">Şubeler</a>
+
+    <a href="#contact">İletişim</a>
+
+</nav>
+
+
+<!-- ================= MAIN ================= -->
+
+<main>
+
+    <!-- Search -->
+
+    <section class="search-section">
+
+        <div class="search-box">
+
+            <span>⌕</span>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Menüde ara..."
+                autocomplete="off"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- Categories -->
+
+    <section class="categories">
+
+        <button class="category-btn active" data-category="all">
+            Tümü
+        </button>
+
+        <button class="category-btn" data-category="izgara">
+            Izgara
+        </button>
+
+        <button class="category-btn" data-category="kebap">
+            Kebap
+        </button>
+
+        <button class="category-btn" data-category="corba">
+            Çorba
+        </button>
+
+        <button class="category-btn" data-category="durum">
+            Dürüm
+        </button>
+
+        <button class="category-btn" data-category="tatli">
+            Tatlı
+        </button>
+
+        <button class="category-btn" data-category="icecek">
+            İçecek
+        </button>
+
+    </section>
+
+
+    <!-- ================= MENU ================= -->
+
+    <section class="menu-section" id="menu">
+
+        <div class="section-title">
+
+            <span>MENÜMÜZ</span>
+
+            <h2>Lezzetlerimiz</h2>
+
+            <p>
+                Günlük hazırlanan ürünlerimizi
+                geleneksel yöntemlerle sizlere sunuyoruz.
+            </p>
+
+        </div>
+
+
+        <div id="menuContainer" class="menu-grid">
+
+            <!-- JavaScript buraya ürünleri ekleyecek -->
+
+        </div>
+
+
+        <div id="noResults" class="no-results">
+
+            <div>😔</div>
+
+            <h3>Ürün bulunamadı</h3>
+
+            <p>
+                Arama kriterlerinizi değiştirmeyi deneyin.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about-section" id="about">
+
+        <div class="about-content">
+
+            <span>HİKÂYEMİZ</span>
+
+            <h2>Doyumsuz Lezzetler</h2>
+
+            <p>
+                1995'te Mersin Yoğurt Pazarı'nda başlayan
+                lezzet yolculuğumuz, bugün farklı şehirlerde
+                aynı kalite ve lezzet anlayışıyla devam ediyor.
+            </p>
+
+            <p>
+                Et, ciğer ve sebzelerimizi güvenilir
+                işletmelerden özenle seçiyor, uygun koşullarda
+                muhafaza ediyor ve deneyimli ustalarımızın
+                ellerinde sizlere sunuyoruz.
+            </p>
+
+            <div class="about-features">
+
+                <div>
+                    <strong>1995</strong>
+                    <span>Kuruluş</span>
+                </div>
+
+                <div>
+                    <strong>100%</strong>
+                    <span>Tazelik</span>
+                </div>
+
+                <div>
+                    <strong>∞</strong>
+                    <span>Lezzet</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= BRANCHES ================= -->
+
+    <section class="branches-section" id="branches">
+
+        <div class="section-title">
+
+            <span>ŞUBELERİMİZ</span>
+
+            <h2>Bize Ulaşın</h2>
+
+        </div>
+
+
+        <div class="branches-grid">
+
+            <div class="branch-card">
+
+                <h3>Balgat</h3>
+
+                <p>
+                    Oğuzlar Mahallesi,<br>
+                    Ceyhun Atuf Kansu Cd. No:53<br>
+                    Çankaya / Ankara
+                </p>
+
+                <a href="tel:03122878788">
+                    ☎ 0312 287 87 88
+                </a>
+
+            </div>
+
+
+            <div class="branch-card">
+
+                <h3>Podium</h3>
+
+                <p>
+                    Podium AVM<br>
+                    Yenimahalle / Ankara
+                </p>
+
+                <a href="tel:03125032972">
+                    ☎ 0312 503 29 72
+                </a>
+
+            </div>
+
+
+            <div class="branch-card">
+
+                <h3>Konyaaltı</h3>
+
+                <p>
+                    Öğretmenevleri,<br>
+                    Atatürk Blv. 92/A<br>
+                    Konyaaltı / Antalya
+                </p>
+
+                <a href="tel:02422299977">
+                    ☎ 0242 229 99 77
+                </a>
+
+            </div>
+
+
+            <div class="branch-card">
+
+                <h3>Selçuklu</h3>
+
+                <p>
+                    Şeyh Şamil Mh.<br>
+                    Doç. Dr. Halil Ürün Cd. No:23/C<br>
+                    Selçuklu / Konya
+                </p>
+
+                <a href="tel:03322650033">
+                    ☎ 0332 265 00 33
+                </a>
+
+            </div>
+
+
+            <div class="branch-card">
+
+                <h3>Buca</h3>
+
+                <p>
+                    Menderes Mah.<br>
+                    Menderes Cad. No:46/A<br>
+                    Buca / İzmir
+                </p>
+
+                <a href="tel:02324484590">
+                    ☎ 0232 448 45 90
+                </a>
+
+            </div>
+
+
+            <div class="branch-card">
+
+                <h3>Eryaman</h3>
+
+                <p>
+                    Şehit Osman Avcı Mah.<br>
+                    1419. Cd. No:12/A<br>
+                    Etimesgut / Ankara
+                </p>
+
+                <a href="tel:03125040333">
+                    ☎ 0312 504 03 33
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact-section" id="contact">
+
+        <h2>Rezervasyon</h2>
+
+        <p>
+            Masa rezervasyonu ve bilgi için
+            şubelerimizle iletişime geçebilirsiniz.
+        </p>
+
+        <a href="tel:03122878788" class="reservation-btn">
+            📞 Rezervasyon Yap
+        </a>
+
+    </section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-brand">
+        Ciğerci Bahattin
+    </div>
+
+    <p>
+        Geleneksel lezzetler, kaliteli malzeme
+        ve ustalıkla...
+    </p>
+
+    <div class="social-links">
+
+        <a href="https://www.facebook.com/cigercibahatin/"
+           target="_blank">
+            Facebook
+        </a>
+
+        <a href="https://twitter.com/CigerciBahatin"
+           target="_blank">
+            Twitter
+        </a>
+
+        <a href="https://www.instagram.com/cigercibahattin_balgat/"
+           target="_blank">
+            Instagram
+        </a>
+
+    </div>
+
+    <small>
+        © 2026 Ciğerci Bahattin
+    </small>
+
+</footer>
+
+
+<!-- ================= PRODUCT MODAL ================= -->
+
+<div id="productModal" class="modal">
+
+    <div class="modal-content">
+
+        <button id="closeModal" class="close-modal">
+            ×
+        </button>
+
+        <img id="modalImage" src="" alt="">
+
+        <div class="modal-info">
+
+            <span id="modalCategory"></span>
+
+            <h2 id="modalTitle"></h2>
+
+            <p id="modalDescription"></p>
+
+            <strong id="modalPrice"></strong>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
